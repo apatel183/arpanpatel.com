@@ -16,10 +16,172 @@
 	display: block;
 	margin: 0 auto;
 	border-radius: 50%;
+	width: 100%
+	height: auto;
+	
+}
+.skillsbar{
+	display: block;
+	margin: 0 auto;
+	border-radius: 70%;
+	width: 100%
+	height: auto;
+}
+.form-group{
+	text-decoration-color: #000000;
+
+}
+*{
+	margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+}
+.main{
+	margin: 50px auto;
+    width: 60%;
+}
+.progressBar{
+	position: relative;
+    width: 100%;
+    height: 40px;
+    background: #eeeeee;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #222;
+}
+.title{
+	position: absolute;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    line-height: 2.5;
+    z-index: 10000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 0 2px #333;
+    text-shadow: 1px 1px 1px #000;
+}
+.progress_value{
+	position: relative;
+    float: right;
+    padding-right: 10px;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #455a64;
+    z-index: 10000;
+  }
+  .progress_color{
+  	height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 0 2px #555;
 }
 
 
+.htmlColor{
+	background: #b71c1c;
+}
+.cssColor{
+    background: #0080ff;
+}
+.jsColor{
+	background: #1a237e;
+}
+.bootstrapColor{
+	background: #400080;
+}
+.wpColor{
+	background: #00a0d2;
+}
+.drupalColor{
+	background: #3399ff;
+}
+.pythonColor{
+	background: #8080ff
+}
 
+.javaColor{
+	background: #adadeb;
+}
+.phpColor{
+	background: #336699;
+}
+.sqlColor{
+	background: #8585ad;
+}
+.gitColor{
+	background: #000000;
+}
+
+
+/*bar background color*/
+.html{
+	background: #ff6600;
+}
+.css{
+	background: #0000ff; 
+}
+.js{
+	background: #5c6bc0;
+}
+.bootstrap{
+	background:#a34dff;
+}
+.wp{
+	background: #4da6ff;
+}
+.drupal{
+	background: #99ccff;
+}
+.python{
+	background:#ffff4d;
+}
+.java{
+	background:#ff0000;
+}
+.php{
+	background: #000000;
+}
+.sql{
+	background:#66bb6a;
+}
+.git{
+	background: #595959;
+}
+@media (max-width: 720px) {
+	.main{
+		width: 90%;
+	}
+}
+
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #F97300; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #F97300;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
 
 /* Reset */
 
@@ -1593,7 +1755,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #01010c;
 		line-height: 1.25em;
 	}
 
